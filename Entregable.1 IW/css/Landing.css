@@ -147,3 +147,36 @@ footer {
 .contacto-container input[type="submit"]:hover {
     background-color: #0d69ff;
 }
+
+/*------------------------Loggin-----------------------------------------------------------------------------------------------*/
+
+.login-container,
+.contacto-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+h2,
+h3 {
+  text-align: center;
+  color: #333;
+}
+
+
+.form-group,
+form p {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #444;
+}
