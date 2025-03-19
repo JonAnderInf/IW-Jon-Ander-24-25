@@ -52,38 +52,74 @@
 
     </header>
 
+    
+    <div class="contenedor_contacto1">
+
+
+        <div class="contacto-container">
+            <h2>Contacta con nosotros</h2>
+
+            <form action="/submit_form" method="post">
+                <div class="form-group">
+                    <label for="nombre">NOMBRE</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="telefono">TELÉFONO</label>
+                        <input type="text" id="telefono" name="telefono" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="empresa">CENTRO / HOSPITAL / EMPRESA</label>
+                        <input type="text" id="empresa" name="empresa">
+                    </div>
+                    <div class="form-group">
+                        <label for="ciudad">CIUDAD</label>
+                        <input type="text" id="ciudad" name="ciudad">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="comentarios">COMENTARIOS</label>
+                    <textarea id="comentarios" name="comentarios"></textarea>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <p class="info-legal">
+                <strong>INFORMACIÓN PROTECCIÓN DE DATOS DE TECNOHEALTH</strong><br>
+                Finalidades: Responder a sus solicitudes y remitirle información comercial de nuestros productos y
+                servicios.
+                <br>
+                <strong>Derechos:</strong> Puede retirar su consentimiento en cualquier momento, así como ejercer su
+                derecho de acceso, rectificación, supresión, oposición, limitación y portabilidad.
+            </p>
+        </div>
 
 
 
+        <div class="imagen_contacto">
 
-    <div class="contacto-container">
+            <img src="C:\Users\Deusto\Desktop\IW Entregable.1\IW-Jon-Ander-24-25\Entregable.1 IW\imagenes\contacto.jpg"
+                class="logo2">
 
-        <h5>Contacto</h5>
+        </div>
 
-        <p>Para cualquier consulta o duda, no dudes en contactarnos:</p>
-
-        <ul>
-            <li>Teléfono: (+34) 945 254 269</li>
-            <li>Correo electrónico: info@Deustronic.com</li>
-            <li>Dirección: Calle Andalucia, 12 - 28001 Vitoria</li>
-        </ul>
-
-        <form action="/submit_form" method="post">
-
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje"></textarea>
-
-            <input type="submit" value="Enviar">
-
-        </form>
 
     </div>
+
+
+
+
 
 
 
