@@ -13,10 +13,12 @@
 
     <header>
         <div class="logo-left">
-            <img src="C:\Users\Deusto\Desktop\IW Entregable.1\IW-Jon-Ander-24-25\Entregable.1 IW\imagenes\TECNOHEALTH1.JPG"
-                alt="Logo de TecnoHealth" class="logo">
+            <a href="Landing.html" a>
+                <img src="C:\Users\Deusto\Desktop\IW Entregable.1\IW-Jon-Ander-24-25\Entregable.1 IW\imagenes\slogan1.JPG"
+                    alt="Logo de TecnoHealth" class="logo">
+            </a>
         </div>
-    
+
         <nav class="Navegador">
             <ul>
                 <li><a href="Landing.html">Inicio</a></li>
@@ -24,7 +26,7 @@
                 <li><a href="Ayuda.html">Contacto</a></li>
             </ul>
         </nav>
-    
+
         <div class="buscador">
             <form action="" method="get">
                 <input type="text" name="busqueda" placeholder="Buscar...">
@@ -33,74 +35,77 @@
                 </button>
             </form>
         </div>
-        
+
     </header>
-    
+
+    <main>
+
+        <div class="contenedor_contacto1">
 
 
-    <div class="contenedor_contacto1">
+            <div class="contacto-container">
+                <h2>Contacta con nosotros</h2>
 
-
-        <div class="contacto-container">
-            <h2>Contacta con nosotros</h2>
-
-            <form action="/submit_form" method="post">
-                <div class="form-group">
-                    <label for="nombre">NOMBRE</label>
-                    <input type="text" id="nombre" name="nombre" required>
-                </div>
-
-                <div class="form-row">
+                <form action="/submit_form" method="post">
                     <div class="form-group">
-                        <label for="telefono">TELÉFONO</label>
-                        <input type="text" id="telefono" name="telefono" required>
+                        <label for="nombre">NOMBRE</label>
+                        <input type="text" id="nombre" name="nombre" required>
                     </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="telefono">TELÉFONO</label>
+                            <input type="text" id="telefono" name="telefono" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="empresa">CENTRO / HOSPITAL / EMPRESA</label>
+                            <input type="text" id="empresa" name="empresa">
+                        </div>
+                        <div class="form-group">
+                            <label for="ciudad">CIUDAD</label>
+                            <input type="text" id="ciudad" name="ciudad">
+                        </div>
+                    </div>
+
                     <div class="form-group">
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email" required>
+                        <label for="comentarios">COMENTARIOS</label>
+                        <textarea id="comentarios" name="comentarios"></textarea>
                     </div>
-                </div>
 
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="empresa">CENTRO / HOSPITAL / EMPRESA</label>
-                        <input type="text" id="empresa" name="empresa">
-                    </div>
-                    <div class="form-group">
-                        <label for="ciudad">CIUDAD</label>
-                        <input type="text" id="ciudad" name="ciudad">
-                    </div>
-                </div>
+                    <button type="submit">Enviar</button>
+                </form>
 
-                <div class="form-group">
-                    <label for="comentarios">COMENTARIOS</label>
-                    <textarea id="comentarios" name="comentarios"></textarea>
-                </div>
+                <p class="info-legal">
+                    <strong>INFORMACIÓN PROTECCIÓN DE DATOS DE TECNOHEALTH</strong><br>
+                    Finalidades: Responder a sus solicitudes y remitirle información comercial de nuestros productos y
+                    servicios.
+                    <br>
+                    <strong>Derechos:</strong> Puede retirar su consentimiento en cualquier momento, así como ejercer su
+                    derecho de acceso, rectificación, supresión, oposición, limitación y portabilidad.
+                </p>
+            </div>
 
-                <button type="submit">Enviar</button>
-            </form>
 
-            <p class="info-legal">
-                <strong>INFORMACIÓN PROTECCIÓN DE DATOS DE TECNOHEALTH</strong><br>
-                Finalidades: Responder a sus solicitudes y remitirle información comercial de nuestros productos y
-                servicios.
-                <br>
-                <strong>Derechos:</strong> Puede retirar su consentimiento en cualquier momento, así como ejercer su
-                derecho de acceso, rectificación, supresión, oposición, limitación y portabilidad.
-            </p>
+
+            <div class="imagen_contacto">
+
+                <img src="C:\Users\Deusto\Desktop\IW Entregable.1\IW-Jon-Ander-24-25\Entregable.1 IW\imagenes\contacto.jpg"
+                    class="logo2">
+
+            </div>
+
+
         </div>
 
+    </main>
 
-
-        <div class="imagen_contacto">
-
-            <img src="C:\Users\Deusto\Desktop\IW Entregable.1\IW-Jon-Ander-24-25\Entregable.1 IW\imagenes\contacto.jpg"
-                class="logo2">
-
-        </div>
-
-
-    </div>
 
 
 
@@ -115,9 +120,9 @@
             <div class="informacion">
 
                 <h2>Sobre nosotros</h2>
-
-                <p>En nuestra tienda online encontrarás una gran variedad de productos de Electronica,neumatica y varios
-                    productos unicos.</p>
+                
+                <p>Fundada en el año 2000 en Vitoria-Gasteiz, Tecnohealth se ha consolidado como una compañía pionera
+                    en el ámbito de la cirugía no invasiva desde nuestros inicios.</p>
 
             </div>
 
@@ -130,7 +135,7 @@
                 <h2>Contacto</h2>
 
                 <ul>
-                    <li><a href="Deustronic@miempresa.com">contacto@miempresa.com</a></li>
+                    <li><a href="Tecnohealth@miempresa.com">Tecnoheath@miempresa.com</a></li>
                     <li><a href="tel:+34911234567">(+34) 945 254 269</a></li>
                 </ul>
 
@@ -158,7 +163,7 @@
 
 
         <div class="derechos">
-            <p>&copy; 2025 Deustronic. Todos los derechos reservados.</p>
+            <p>&copy; 2025 Tecnohealth. Todos los derechos reservados.</p>
         </div>
 
 
