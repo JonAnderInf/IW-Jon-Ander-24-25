@@ -230,7 +230,7 @@ header {
 .logo-left {
   display: flex;
   align-items: center;
-  margin-right: 90px; /* Acerca el logo al menú */
+  margin-right: 90px; 
 }
 
 .logo-left .logo {
@@ -482,6 +482,42 @@ html, body {
   height: 100%;
   overflow-x: hidden;
 }
+
+.slogan {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+  margin: 40px auto; 
+  width: 100%;
+}
+
+.slogan figure {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.slogan img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.informacion_slogan {
+  margin-top: 20px; 
+}
+
+.informacion_slogan h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #002f6c;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
 
 /*-----------------------------------------------------------------------------Noticia_Detalles-------------------------------------------------------------------------- */
 
